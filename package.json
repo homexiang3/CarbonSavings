@@ -1,0 +1,29 @@
+{
+  "name": "carbonsavings",
+  "version": "1.0.0",
+  "description": "Open source website with a carbon footprint calculator which complements the Move-to-earn dApp created in the context of UPF's TFG",
+  "main": "app.js",
+  "type":"module",
+  "scripts": {
+    "dev":"nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/homexiang3/CarbonSavings.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/homexiang3/CarbonSavings/issues"
+  },
+  "homepage": "https://github.com/homexiang3/CarbonSavings#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
